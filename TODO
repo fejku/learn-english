@@ -3,4 +3,6 @@ EN voice
 Settings:
     - pick categories
 Add items
-remove catalogs
+Remove catalogs
+Wrong item can be clicked after correct answer
+Wait for voice to finish before other things can be clicked

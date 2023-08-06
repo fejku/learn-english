@@ -2,15 +2,20 @@ import gearIcon from "../assets/gear.svg";
 import plIcon from "../assets/pl.svg";
 import speakerIcon from "../assets/speaker.svg";
 import usIcon from "../assets/us.svg";
+import { IItem } from "../interfaces/IItem";
 
 import classes from "./Header.module.css";
 
-const Header = () => {
+type Props = {
+  item: IItem;
+};
+
+const Header: React.FC<Props> = ({ item }) => {
   return (
     <header className="h-20 mx-4 flex justify-between items-center text-white">
       <div className="flex flex-1 justify-start items-center sm:justify-center">
         <p className="pr-4">
-          Find the <b>wind</b>
+          Find the <b>{item?.filename}</b>
         </p>
         <div className="relative pr-4 flex">
           <button className="hover:scale-105">

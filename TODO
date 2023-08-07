@@ -1,8 +1,5 @@
-PL voice
-EN voice
-Settings:
-    - pick categories
-Add items
+Settings: - pick categories
 Remove catalogs
 Wrong item can be clicked after correct answer
 Wait for voice to finish before other things can be clicked
+Add more items

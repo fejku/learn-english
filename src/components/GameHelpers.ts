@@ -40,9 +40,7 @@ const speakConstant = (language: "en" | "pl") => {
 export const speak = (language: "en" | "pl", item: IItem) => {
   const speech = new SpeechSynthesisUtterance();
   speech.lang = language;
-  speech.text = `${speakConstant(language)} ${
-    language === "en" ? item.filename : ""
-  }`;
+  speech.text = `${speakConstant(language)} ${item[language]}`;
   speech.rate = 0.75; // Prędkość mówienia
   // speech.pitch = 2;
 

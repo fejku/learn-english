@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1870.7885"
+   height="2663.1902"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="finger.svg"
+   inkscape:export-filename="C:\Users\wollknaeul\Documents\HPI\_Semester 5\HCI\msproject2go\paper\bilder\finger.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="-1480.2109"
+     inkscape:cy="1502.1249"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(578.68111,807.25584)">
+    <g
+       transform="matrix(2.6792638,0,0,2.6792638,-591.65879,-961.98143)"
+       id="g6982-2">
+      <path
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         id="path2996-4"
+         d="M 6.078334,762.6914 C 96.397894,689.06394 167.23977,590.44694 238.93547,505.54854 327.08266,393.22951 418.1957,291.99384 467.5069,186.97711 518.14569,98.325038 590.45252,33.196605 650.36405,68.405678 747.06588,124.13445 685.80831,238.94806 647.5069,338.40568 592.3934,441.29769 559.88326,498.93893 501.79262,592.6914 419.42413,712.62079 330.05128,816.42601 254.64976,925.54854 c -24.639,36.40803 -68.57143,124.28576 -68.57143,124.28576 z"
+         style="fill:#f4c8b2;fill-opacity:1;stroke:#000000;stroke-width:1.86618423;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path2998-7"
+         d="m 507.5069,181.26282 c 19.51917,47.12984 81.41819,68.19055 118.57143,60.00001 C 726.48346,157.51184 681.7795,107.57533 646.07834,75.548538 573.07777,32.612002 543.90503,111.05713 507.5069,181.26282 z"
+         style="fill:#d1abad;fill-opacity:1;stroke:#000000;stroke-width:0.93309212;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3033-9"
+         d="m 447.5069,314.11997 c 47.68068,15.08751 31.56622,25.83026 100,61.42857"
+         style="fill:none;stroke:#000000;stroke-width:0.93309212;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>

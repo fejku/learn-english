@@ -32,3 +32,19 @@ export const getFreshStates = () => {
 export const getItemByIndex = (drawnItems: IItem[], index: number) => {
   return drawnItems[index];
 };
+
+const speakConstant = (language: "en" | "pl") => {
+  return language === "en" ? "Find the" : "Znajdź";
+};
+
+export const speak = (language: "en" | "pl", item: IItem) => {
+  const speech = new SpeechSynthesisUtterance();
+  speech.lang = language;
+  speech.text = `${speakConstant(language)} ${
+    language === "en" ? item.filename : ""
+  }`;
+  speech.rate = 0.75; // Prędkość mówienia
+  // speech.pitch = 2;
+
+  window.speechSynthesis.speak(speech);
+};

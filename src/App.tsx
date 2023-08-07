@@ -2,7 +2,11 @@ import { useEffect, useState } from "react";
 
 import Game from "./components/Game";
 import Header from "./components/Header";
-import { getFreshStates, getItemByIndex } from "./components/GameHelpers";
+import {
+  getFreshStates,
+  getItemByIndex,
+  speak,
+} from "./components/GameHelpers";
 import { IItem } from "./interfaces/IItem";
 
 const App = () => {
@@ -31,6 +35,9 @@ const App = () => {
     setPickedIndexes([]);
     setDrawnItems(newDrawnItems);
     setCorrectIndex(newCorrectIndex);
+
+    const correctItem = getItemByIndex(newDrawnItems, newCorrectIndex);
+    speak("en", correctItem);
   };
 
   const correctItem = getItemByIndex(drawnItems, correctIndex);

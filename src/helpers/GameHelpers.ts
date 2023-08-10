@@ -1,19 +1,25 @@
 import { TItem } from "../interfaces/types";
+import { getSavesCategories } from "./SettingsHelpers";
 
 import items from "../assets/items.json";
 
 const drawItems = () => {
   const result: TItem[] = [];
 
+  const categories = getSavesCategories();
+  const filteredItems = items.filter((item) =>
+    item.categories.some((category) => categories.includes(category))
+  );
+
   const drawnIndexes: number[] = [];
   for (let i = 0; i < 3; i++) {
     let drawnIndex;
     do {
-      drawnIndex = Math.floor(Math.random() * items.length);
+      drawnIndex = Math.floor(Math.random() * filteredItems.length);
     } while (drawnIndexes.includes(drawnIndex));
     drawnIndexes.push(drawnIndex);
 
-    const newDrawnItem = items[drawnIndex];
+    const newDrawnItem = filteredItems[drawnIndex];
     result.push(newDrawnItem);
   }
   return result;

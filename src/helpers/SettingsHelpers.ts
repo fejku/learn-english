@@ -1,7 +1,7 @@
 import items from "../assets/items.json";
 import { TCategorie } from "../interfaces/types";
 
-const getSavesCategories = () => {
+export const getSavesCategories = () => {
   const result = <string[]>[];
 
   const categoriesStorage = localStorage.getItem("categories");

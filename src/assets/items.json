@@ -240,5 +240,198 @@
     "pl": "wieloryba",
     "en": "whale"
   },
-  { "filename": "wolf", "categories": ["animal"], "pl": "wilka", "en": "wolf" }
+  { "filename": "wolf", "categories": ["animal"], "pl": "wilka", "en": "wolf" },
+  {
+    "filename": "apple",
+    "categories": ["food"],
+    "pl": "jabłko",
+    "en": "apple"
+  },
+  {
+    "filename": "banana",
+    "categories": ["food"],
+    "pl": "banana",
+    "en": "banana"
+  },
+  {
+    "filename": "beans",
+    "categories": ["food"],
+    "pl": "fasolę",
+    "en": "beans"
+  },
+  { "filename": "bread", "categories": ["food"], "pl": "chleb", "en": "bread" },
+  { "filename": "buns", "categories": ["food"], "pl": "bułki", "en": "buns" },
+  { "filename": "cake", "categories": ["food"], "pl": "ciasto", "en": "cake" },
+  {
+    "filename": "carrot",
+    "categories": ["food"],
+    "pl": "marchewkę",
+    "en": "carrot"
+  },
+  { "filename": "cheese", "categories": ["food"], "pl": "ser", "en": "cheese" },
+  {
+    "filename": "cherry",
+    "categories": ["food"],
+    "pl": "wiśnię",
+    "en": "cherry"
+  },
+  {
+    "filename": "chicken-leg",
+    "categories": ["food"],
+    "pl": "udko kurczaka",
+    "en": "chicken leg"
+  },
+  {
+    "filename": "coconut",
+    "categories": ["food"],
+    "pl": "kokosa",
+    "en": "coconut"
+  },
+  {
+    "filename": "cookie",
+    "categories": ["food"],
+    "pl": "ciastko",
+    "en": "cookie"
+  },
+  {
+    "filename": "corn",
+    "categories": ["food"],
+    "pl": "kukurydzę",
+    "en": "corn"
+  },
+  {
+    "filename": "cucumber",
+    "categories": ["food"],
+    "pl": "ogórka",
+    "en": "cucumber"
+  },
+  {
+    "filename": "cupcake",
+    "categories": ["food"],
+    "pl": "babeczkę",
+    "en": "cupcake"
+  },
+  {
+    "filename": "fries",
+    "categories": ["food"],
+    "pl": "frytki",
+    "en": "fries"
+  },
+  {
+    "filename": "garlic",
+    "categories": ["food"],
+    "pl": "czosnek",
+    "en": "garlic"
+  },
+  {
+    "filename": "grapes",
+    "categories": ["food"],
+    "pl": "winogrona",
+    "en": "grapes"
+  },
+  {
+    "filename": "hamburger",
+    "categories": ["food"],
+    "pl": "burgera",
+    "en": "hamburger"
+  },
+  { "filename": "honey", "categories": ["food"], "pl": "miód", "en": "honey" },
+  {
+    "filename": "ice-cream",
+    "categories": ["food"],
+    "pl": "loda",
+    "en": "ice cream"
+  },
+  { "filename": "kiwi", "categories": ["food"], "pl": "kiwi", "en": "kiwi" },
+  {
+    "filename": "lemon",
+    "categories": ["food"],
+    "pl": "cytrynę",
+    "en": "lemon"
+  },
+  {
+    "filename": "lettuce",
+    "categories": ["food"],
+    "pl": "sałatę",
+    "en": "lettuce"
+  },
+  { "filename": "milk", "categories": ["food"], "pl": "mleko", "en": "milk" },
+  {
+    "filename": "mushroom",
+    "categories": ["food"],
+    "pl": "grzyba",
+    "en": "mushroom"
+  },
+  { "filename": "nut", "categories": ["food"], "pl": "orzecha", "en": "nut" },
+  {
+    "filename": "orange",
+    "categories": ["food"],
+    "pl": "pomarańczę",
+    "en": "orange"
+  },
+  {
+    "filename": "orange-juice",
+    "categories": ["food"],
+    "pl": "sok pomarańczowy",
+    "en": "orange juice"
+  },
+  {
+    "filename": "peach",
+    "categories": ["food"],
+    "pl": "brzoskwinię",
+    "en": "peach"
+  },
+  { "filename": "pear", "categories": ["food"], "pl": "gruszkę", "en": "pear" },
+  {
+    "filename": "pineapple",
+    "categories": ["food"],
+    "pl": "ananasa",
+    "en": "pineapple"
+  },
+  { "filename": "pizza", "categories": ["food"], "pl": "pizzę", "en": "pizza" },
+  { "filename": "plum", "categories": ["food"], "pl": "śliwkę", "en": "plum" },
+  {
+    "filename": "potato",
+    "categories": ["food"],
+    "pl": "ziemniaka",
+    "en": "potato"
+  },
+  {
+    "filename": "pumpkin",
+    "categories": ["food"],
+    "pl": "dynię",
+    "en": "pumpkin"
+  },
+  {
+    "filename": "raspberry",
+    "categories": ["food"],
+    "pl": "malinę",
+    "en": "raspberry"
+  },
+  { "filename": "rice", "categories": ["food"], "pl": "ryż", "en": "rice" },
+  { "filename": "soup", "categories": ["food"], "pl": "zupę", "en": "soup" },
+  {
+    "filename": "spaghetti",
+    "categories": ["food"],
+    "pl": "spagetti",
+    "en": "spaghetti"
+  },
+  {
+    "filename": "strawberry",
+    "categories": ["food"],
+    "pl": "truskawkę",
+    "en": "strawberry"
+  },
+  {
+    "filename": "tomato",
+    "categories": ["food"],
+    "pl": "pomidora",
+    "en": "tomato"
+  },
+  {
+    "filename": "watermelon",
+    "categories": ["food"],
+    "pl": "arbuza",
+    "en": "watermelon"
+  }
 ]

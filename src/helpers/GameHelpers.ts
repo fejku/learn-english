@@ -1,8 +1,9 @@
+import { TItem } from "../interfaces/types";
+
 import items from "../assets/items.json";
-import { IItem } from "../interfaces/IItem";
 
 const drawItems = () => {
-  const result: IItem[] = [];
+  const result: TItem[] = [];
 
   const drawnIndexes: number[] = [];
   for (let i = 0; i < 3; i++) {
@@ -29,7 +30,7 @@ export const getFreshStates = () => {
   return { newDrawnItems, newCorrectIndex };
 };
 
-export const getItemByIndex = (drawnItems: IItem[], index: number) => {
+export const getItemByIndex = (drawnItems: TItem[], index: number) => {
   return drawnItems[index];
 };
 
@@ -37,7 +38,10 @@ const speakConstant = (language: "en" | "pl") => {
   return language === "en" ? "Find the" : "Znajdź";
 };
 
-export const speak = (language: "en" | "pl", item: IItem) => {
+export const speak = (language: "en" | "pl", item: TItem) => {
+  // Stop previous speak, prevents queue after fast clicking
+  window.speechSynthesis.cancel();
+
   const speech = new SpeechSynthesisUtterance();
   speech.lang = language;
   speech.text = `${speakConstant(language)} ${item[language]}`;

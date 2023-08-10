@@ -1,23 +1,29 @@
+import { TItem, TPage } from "../interfaces/types";
+import { speak } from "../helpers/GameHelpers";
+
 import gearIcon from "../assets/gear.svg";
 import plIcon from "../assets/pl.svg";
 import speakerIcon from "../assets/speaker.svg";
 import usIcon from "../assets/us.svg";
-import { IItem } from "../interfaces/IItem";
-import { speak } from "./GameHelpers";
 
 import classes from "./Header.module.css";
 
 type Props = {
-  item: IItem;
+  item: TItem;
+  onChangePage: (page: TPage) => void;
 };
 
-const Header: React.FC<Props> = ({ item }) => {
+const Header: React.FC<Props> = ({ item, onChangePage }) => {
   const onSpeakPlClick = () => {
     speak("pl", item);
   };
 
   const onSpeakEnClick = () => {
     speak("en", item);
+  };
+
+  const onSettingsClick = () => {
+    onChangePage("settings");
   };
 
   return (
@@ -67,6 +73,7 @@ const Header: React.FC<Props> = ({ item }) => {
           alt=""
           className={`w-8 h-8 ${classes.icon}`}
           draggable={false}
+          onClick={onSettingsClick}
         />
       </button>
     </header>

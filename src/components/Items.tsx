@@ -1,4 +1,4 @@
-import { IItem } from "../interfaces/IItem";
+import { IItem } from "../interfaces/types";
 import Item from "./Item";
 
 type Props = {
@@ -8,7 +8,7 @@ type Props = {
   onItemClick: (index: number) => void;
 };
 
-const Game: React.FC<Props> = ({
+const Items: React.FC<Props> = ({
   items,
   correctIndex,
   pickedIndexes,
@@ -30,4 +30,4 @@ const Game: React.FC<Props> = ({
   );
 };
 
-export default Game;
+export default Items;

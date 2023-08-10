@@ -1,58 +1,20 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-import Game from "./components/Game";
-import Header from "./components/Header";
-import {
-  getFreshStates,
-  getItemByIndex,
-  speak,
-} from "./components/GameHelpers";
-import { IItem } from "./interfaces/IItem";
+import Game from "./pages/Game";
+import Settings from "./pages/Settings";
+import { TPage } from "./interfaces/types";
 
 const App = () => {
-  const [drawnItems, setDrawnItems] = useState<IItem[]>([]);
-  const [correctIndex, setCorrectIndex] = useState(0);
-  const [pickedIndexes, setPickedIndexes] = useState<number[]>([]);
+  const [page, setPage] = useState<TPage>("game");
 
-  useEffect(() => {
-    newGame();
-  }, []);
-
-  const onItemClick = (index: number) => {
-    const newPickedIndexes = [...pickedIndexes, index];
-    setPickedIndexes(newPickedIndexes);
-
-    if (index === correctIndex) {
-      setTimeout(() => {
-        newGame();
-      }, 500);
-    }
+  const onChangePage = (newPage: TPage) => {
+    setPage(newPage);
   };
 
-  const newGame = () => {
-    const { newDrawnItems, newCorrectIndex } = getFreshStates();
-
-    setPickedIndexes([]);
-    setDrawnItems(newDrawnItems);
-    setCorrectIndex(newCorrectIndex);
-
-    const correctItem = getItemByIndex(newDrawnItems, newCorrectIndex);
-    speak("en", correctItem);
-  };
-
-  const correctItem = getItemByIndex(drawnItems, correctIndex);
-
-  return (
-    <div className="bg-cyan-700 w-screen h-screen flex flex-col">
-      <Header item={correctItem} />
-      <Game
-        items={drawnItems}
-        correctIndex={correctIndex}
-        pickedIndexes={pickedIndexes}
-        onItemClick={onItemClick}
-      />
-    </div>
-  );
+  if (page === "settings") {
+    return <Settings onChangePage={onChangePage} />;
+  }
+  return <Game onChangePage={onChangePage} />;
 };
 
 export default App;

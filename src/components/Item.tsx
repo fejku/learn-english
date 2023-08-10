@@ -1,4 +1,4 @@
-import { IItem } from "../interfaces/IItem";
+import { IItem } from "../interfaces/types";
 
 import CorrectIcon from "../assets/correct.svg";
 import WrongIcon from "../assets/wrong.svg";
@@ -34,7 +34,7 @@ const Item: React.FC<Props> = ({
         onClick={onClick}
       >
         <img
-          src={`imgs/animal/${item.filename}.svg`}
+          src={`imgs/${item.categories[0]}/${item.filename}.svg`}
           alt={`Image ${index}`}
           draggable={false}
           className="absolute top-0 left-0 p-2 w-full aspect-square"

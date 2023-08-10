@@ -433,5 +433,537 @@
     "categories": ["food"],
     "pl": "arbuza",
     "en": "watermelon"
+  },
+  { "filename": "zero", "categories": ["number"], "pl": "zero", "en": "zero" },
+  { "filename": "one", "categories": ["number"], "pl": "jeden", "en": "one" },
+  { "filename": "two", "categories": ["number"], "pl": "dwa", "en": "two" },
+  {
+    "filename": "three",
+    "categories": ["number"],
+    "pl": "trzy",
+    "en": "three"
+  },
+  {
+    "filename": "four",
+    "categories": ["number"],
+    "pl": "cztery",
+    "en": "four"
+  },
+  { "filename": "five", "categories": ["number"], "pl": "pięć", "en": "five" },
+  { "filename": "six", "categories": ["number"], "pl": "sześć", "en": "six" },
+  {
+    "filename": "seven",
+    "categories": ["number"],
+    "pl": "siedem",
+    "en": "seven"
+  },
+  {
+    "filename": "eight",
+    "categories": ["number"],
+    "pl": "osiem",
+    "en": "eight"
+  },
+  {
+    "filename": "nine",
+    "categories": ["number"],
+    "pl": "dziewieć",
+    "en": "nine"
+  },
+  {
+    "filename": "airplane",
+    "categories": ["thing"],
+    "pl": "samolot",
+    "en": "airplane"
+  },
+  {
+    "filename": "ambulance",
+    "categories": ["thing"],
+    "pl": "karetkę",
+    "en": "ambulance"
+  },
+  { "filename": "ball", "categories": ["thing"], "pl": "piłkę", "en": "ball" },
+  {
+    "filename": "baloon",
+    "categories": ["thing"],
+    "pl": "balon",
+    "en": "baloon"
+  },
+  {
+    "filename": "bandage",
+    "categories": ["thing"],
+    "pl": "bandaż",
+    "en": "bandage"
+  },
+  { "filename": "bath", "categories": ["thing"], "pl": "wannę", "en": "bath" },
+  {
+    "filename": "beach",
+    "categories": ["thing"],
+    "pl": "plażę",
+    "en": "beach"
+  },
+  { "filename": "bed", "categories": ["thing"], "pl": "łóżko", "en": "bed" },
+  {
+    "filename": "bell",
+    "categories": ["thing"],
+    "pl": "dzwonek",
+    "en": "bell"
+  },
+  { "filename": "bike", "categories": ["thing"], "pl": "rower", "en": "bike" },
+  { "filename": "bomb", "categories": ["thing"], "pl": "bombę", "en": "bomb" },
+  {
+    "filename": "book",
+    "categories": ["thing"],
+    "pl": "książkę",
+    "en": "book"
+  },
+  {
+    "filename": "bottle-of-water",
+    "categories": ["thing"],
+    "pl": "butelkę z wodą",
+    "en": "bottle of water"
+  },
+  { "filename": "bus", "categories": ["thing"], "pl": "autobus", "en": "bus" },
+  { "filename": "bush", "categories": ["thing"], "pl": "krzak", "en": "bush" },
+  {
+    "filename": "camera",
+    "categories": ["thing"],
+    "pl": "aparat fotograficzny",
+    "en": "camera"
+  },
+  {
+    "filename": "candle",
+    "categories": ["thing"],
+    "pl": "świecę",
+    "en": "candle"
+  },
+  {
+    "filename": "candy",
+    "categories": ["thing"],
+    "pl": "cukierka",
+    "en": "candy"
+  },
+  { "filename": "car", "categories": ["thing"], "pl": "samochód", "en": "car" },
+  {
+    "filename": "castle",
+    "categories": ["thing"],
+    "pl": "zamek",
+    "en": "castle"
+  },
+  {
+    "filename": "chair",
+    "categories": ["thing"],
+    "pl": "krzesło",
+    "en": "chair"
+  },
+  {
+    "filename": "christmas-tree",
+    "categories": ["thing"],
+    "pl": "choinkę",
+    "en": "christmas tree"
+  },
+  {
+    "filename": "clock",
+    "categories": ["thing"],
+    "pl": "zegar",
+    "en": "clock"
+  },
+  {
+    "filename": "cloud",
+    "categories": ["thing"],
+    "pl": "chmurę",
+    "en": "cloud"
+  },
+  {
+    "filename": "crown",
+    "categories": ["thing"],
+    "pl": "koronę",
+    "en": "crown"
+  },
+  {
+    "filename": "desert",
+    "categories": ["thing"],
+    "pl": "pustynię",
+    "en": "desert"
+  },
+  {
+    "filename": "dishwasher",
+    "categories": ["thing"],
+    "pl": "zmywarkę",
+    "en": "dishwasher"
+  },
+  { "filename": "door", "categories": ["thing"], "pl": "drzwi", "en": "door" },
+  {
+    "filename": "dress",
+    "categories": ["thing"],
+    "pl": "sukienkę",
+    "en": "dress"
+  },
+  {
+    "filename": "earth",
+    "categories": ["thing"],
+    "pl": "ziemię",
+    "en": "earth"
+  },
+  { "filename": "egg", "categories": ["thing"], "pl": "jajko", "en": "egg" },
+  {
+    "filename": "envelope",
+    "categories": ["thing"],
+    "pl": "kopertę",
+    "en": "envelope"
+  },
+  { "filename": "fire", "categories": ["thing"], "pl": "ogień", "en": "fire" },
+  {
+    "filename": "fire-truck",
+    "categories": ["thing"],
+    "pl": "wóz strażacki",
+    "en": "fire truck"
+  },
+  { "filename": "flag", "categories": ["thing"], "pl": "flagę", "en": "flag" },
+  {
+    "filename": "flower",
+    "categories": ["thing"],
+    "pl": "kwiat",
+    "en": "flower"
+  },
+  {
+    "filename": "forest",
+    "categories": ["thing"],
+    "pl": "las",
+    "en": "forest"
+  },
+  {
+    "filename": "fork",
+    "categories": ["thing"],
+    "pl": "widelec",
+    "en": "fork"
+  },
+  {
+    "filename": "fridge",
+    "categories": ["thing"],
+    "pl": "lodówkę",
+    "en": "fridge"
+  },
+  {
+    "filename": "glass",
+    "categories": ["thing"],
+    "pl": "szklankę",
+    "en": "glass"
+  },
+  {
+    "filename": "glasses",
+    "categories": ["thing"],
+    "pl": "okulary",
+    "en": "glasses"
+  },
+  {
+    "filename": "glove",
+    "categories": ["thing"],
+    "pl": "rękawiczkę",
+    "en": "glove"
+  },
+  {
+    "filename": "grass",
+    "categories": ["thing"],
+    "pl": "trawę",
+    "en": "grass"
+  },
+  {
+    "filename": "hair-comb",
+    "categories": ["thing"],
+    "pl": "grzebień",
+    "en": "hair comb"
+  },
+  {
+    "filename": "hammer",
+    "categories": ["thing"],
+    "pl": "młotek",
+    "en": "hammer"
+  },
+  { "filename": "hat", "categories": ["thing"], "pl": "kapelusz", "en": "hat" },
+  {
+    "filename": "heart",
+    "categories": ["thing"],
+    "pl": "serce",
+    "en": "heart"
+  },
+  { "filename": "house", "categories": ["thing"], "pl": "dom", "en": "house" },
+  {
+    "filename": "jacket",
+    "categories": ["thing"],
+    "pl": "kurtkę",
+    "en": "jacket"
+  },
+  { "filename": "key", "categories": ["thing"], "pl": "klucz", "en": "key" },
+  { "filename": "knife", "categories": ["thing"], "pl": "nóż", "en": "knife" },
+  {
+    "filename": "ladder",
+    "categories": ["thing"],
+    "pl": "drabinę",
+    "en": "ladder"
+  },
+  { "filename": "lamp", "categories": ["thing"], "pl": "lampę", "en": "lamp" },
+  { "filename": "leaf", "categories": ["thing"], "pl": "liścia", "en": "leaf" },
+  { "filename": "lock", "categories": ["thing"], "pl": "kłódkę", "en": "lock" },
+  {
+    "filename": "lollipop",
+    "categories": ["thing"],
+    "pl": "lizaka",
+    "en": "lollipop"
+  },
+  {
+    "filename": "microwave",
+    "categories": ["thing"],
+    "pl": "mikrofalówkę",
+    "en": "microwave"
+  },
+  {
+    "filename": "money",
+    "categories": ["thing"],
+    "pl": "pieniądze",
+    "en": "money"
+  },
+  {
+    "filename": "moon",
+    "categories": ["thing"],
+    "pl": "księżyc",
+    "en": "moon"
+  },
+  {
+    "filename": "mountains",
+    "categories": ["thing"],
+    "pl": "góry",
+    "en": "mountains"
+  },
+  { "filename": "nail", "categories": ["thing"], "pl": "gwóźdź", "en": "nail" },
+  { "filename": "night", "categories": ["thing"], "pl": "noc", "en": "night" },
+  {
+    "filename": "oven",
+    "categories": ["thing"],
+    "pl": "piekarnik",
+    "en": "oven"
+  },
+  { "filename": "pan", "categories": ["thing"], "pl": "patelnię", "en": "pan" },
+  {
+    "filename": "panties",
+    "categories": ["thing"],
+    "pl": "majtki",
+    "en": "panties"
+  },
+  {
+    "filename": "pants",
+    "categories": ["thing"],
+    "pl": "spodnia",
+    "en": "pants"
+  },
+  { "filename": "pen", "categories": ["thing"], "pl": "długopis", "en": "pen" },
+  {
+    "filename": "pencil",
+    "categories": ["thing"],
+    "pl": "ołówek",
+    "en": "pencil"
+  },
+  {
+    "filename": "plate",
+    "categories": ["thing"],
+    "pl": "talerz",
+    "en": "plate"
+  },
+  {
+    "filename": "pliers",
+    "categories": ["thing"],
+    "pl": "szczypce",
+    "en": "pliers"
+  },
+  {
+    "filename": "police-car",
+    "categories": ["thing"],
+    "pl": "radiowóz",
+    "en": "police car"
+  },
+  { "filename": "pot", "categories": ["thing"], "pl": "garnek", "en": "pot" },
+  {
+    "filename": "present",
+    "categories": ["thing"],
+    "pl": "pezent",
+    "en": "present"
+  },
+  {
+    "filename": "purse",
+    "categories": ["thing"],
+    "pl": "torebkę",
+    "en": "purse"
+  },
+  { "filename": "rain", "categories": ["thing"], "pl": "deszcz", "en": "rain" },
+  { "filename": "rake", "categories": ["thing"], "pl": "grabie", "en": "rake" },
+  {
+    "filename": "ruler",
+    "categories": ["thing"],
+    "pl": "linijkę",
+    "en": "ruler"
+  },
+  {
+    "filename": "sandbox",
+    "categories": ["thing"],
+    "pl": "piaskownicę",
+    "en": "sandbox"
+  },
+  { "filename": "saw", "categories": ["thing"], "pl": "piłę", "en": "saw" },
+  {
+    "filename": "scarf",
+    "categories": ["thing"],
+    "pl": "szalik",
+    "en": "scarf"
+  },
+  {
+    "filename": "scissors",
+    "categories": ["thing"],
+    "pl": "nożyczki",
+    "en": "scissors"
+  },
+  {
+    "filename": "screwdriver",
+    "categories": ["thing"],
+    "pl": "śrubokręt",
+    "en": "screwdriver"
+  },
+  { "filename": "ship", "categories": ["thing"], "pl": "statek", "en": "ship" },
+  {
+    "filename": "shirt",
+    "categories": ["thing"],
+    "pl": "koszulę",
+    "en": "shirt"
+  },
+  { "filename": "shoes", "categories": ["thing"], "pl": "buty", "en": "shoes" },
+  {
+    "filename": "shower",
+    "categories": ["thing"],
+    "pl": "prysznic",
+    "en": "shower"
+  },
+  {
+    "filename": "sign",
+    "categories": ["thing"],
+    "pl": "znak drogowy",
+    "en": "sign"
+  },
+  {
+    "filename": "skirt",
+    "categories": ["thing"],
+    "pl": "spódnicę",
+    "en": "skirt"
+  },
+  {
+    "filename": "smartphone",
+    "categories": ["thing"],
+    "pl": "telefon",
+    "en": "smartphone"
+  },
+  { "filename": "snow", "categories": ["thing"], "pl": "śnieg", "en": "snow" },
+  {
+    "filename": "snowman",
+    "categories": ["thing"],
+    "pl": "bałwana",
+    "en": "snowman"
+  },
+  {
+    "filename": "socks",
+    "categories": ["thing"],
+    "pl": "skarpetki",
+    "en": "socks"
+  },
+  { "filename": "sofa", "categories": ["thing"], "pl": "kanapę", "en": "sofa" },
+  {
+    "filename": "spade",
+    "categories": ["thing"],
+    "pl": "łopatę",
+    "en": "spade"
+  },
+  {
+    "filename": "spanner",
+    "categories": ["thing"],
+    "pl": "klucz płaski",
+    "en": "spanner"
+  },
+  {
+    "filename": "spoon",
+    "categories": ["thing"],
+    "pl": "łyżkę",
+    "en": "spoon"
+  },
+  {
+    "filename": "stairs",
+    "categories": ["thing"],
+    "pl": "schody",
+    "en": "stairs"
+  },
+  {
+    "filename": "star",
+    "categories": ["thing"],
+    "pl": "gwiazdę",
+    "en": "star"
+  },
+  { "filename": "sun", "categories": ["thing"], "pl": "słońce", "en": "sun" },
+  {
+    "filename": "sword",
+    "categories": ["thing"],
+    "pl": "miecz",
+    "en": "sword"
+  },
+  { "filename": "table", "categories": ["thing"], "pl": "stół", "en": "table" },
+  {
+    "filename": "tape-measure",
+    "categories": ["thing"],
+    "pl": "miarkę",
+    "en": "tape measure"
+  },
+  {
+    "filename": "toothbrush",
+    "categories": ["thing"],
+    "pl": "szczoteczkę do zębów",
+    "en": "toothbrush"
+  },
+  {
+    "filename": "train",
+    "categories": ["thing"],
+    "pl": "pociąg",
+    "en": "train"
+  },
+  { "filename": "tree", "categories": ["thing"], "pl": "drzewo", "en": "tree" },
+  {
+    "filename": "T-shirt",
+    "categories": ["thing"],
+    "pl": "podkoszulkę",
+    "en": "T-shirt"
+  },
+  {
+    "filename": "umbrella",
+    "categories": ["thing"],
+    "pl": "parasol",
+    "en": "umbrella"
+  },
+  {
+    "filename": "washing-machine",
+    "categories": ["thing"],
+    "pl": "pralkę",
+    "en": "washing machine"
+  },
+  {
+    "filename": "watch",
+    "categories": ["thing"],
+    "pl": "zegarek",
+    "en": "watch"
+  },
+  {
+    "filename": "weight",
+    "categories": ["thing"],
+    "pl": "wagę",
+    "en": "weight"
+  },
+  { "filename": "wheel", "categories": ["thing"], "pl": "koło", "en": "wheel" },
+  {
+    "filename": "window",
+    "categories": ["thing"],
+    "pl": "okno",
+    "en": "window"
   }
 ]

@@ -1,4 +1,4 @@
-import { IItem } from "../interfaces/types";
+import { TItem } from "../interfaces/types";
 
 import CorrectIcon from "../assets/correct.svg";
 import WrongIcon from "../assets/wrong.svg";
@@ -6,7 +6,7 @@ import WrongIcon from "../assets/wrong.svg";
 import classes from "./Item.module.css";
 
 type Props = {
-  item: IItem;
+  item: TItem;
   index: number;
   isCorrect: boolean;
   isPicked: boolean;

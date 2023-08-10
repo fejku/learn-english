@@ -1,8 +1,8 @@
-import { IItem } from "../interfaces/types";
+import { TItem } from "../interfaces/types";
 import Item from "./Item";
 
 type Props = {
-  items: IItem[];
+  items: TItem[];
   correctIndex: number;
   pickedIndexes: number[];
   onItemClick: (index: number) => void;
